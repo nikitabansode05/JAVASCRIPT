@@ -1,4 +1,4 @@
-/*
+
 console.log("*******************FOR LOOP****************************");
 for(let i=0;i<=5;i++){
     console.log(i);
@@ -101,7 +101,6 @@ console.log(obj2);
 import { fire, ice } from './Spell.js';
 fire(); // Casting Fire!
 ice();  // Casting Ice!
-*/
 
 
 let numbers = [1,2,3,4,5];
