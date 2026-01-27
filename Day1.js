@@ -103,7 +103,7 @@ fire(); // Casting Fire!
 ice();  // Casting Ice!
 
 
-let numbers = [1,2,3,4,5];
+let numbers1 = [1,2,3,4,5];+
 
 // map
 let squared = numbers.map(n => n*n); // [1,4,9,16,25]
@@ -112,4 +112,4 @@ let squared = numbers.map(n => n*n); // [1,4,9,16,25]
 let even = numbers.filter(n => n%2===0); // [2,4]
 
 // reduce
-let sum = numbers.reduce((acc,n)=>acc+n,0); // 15
+let sum1 = numbers.reduce((acc,n)=>acc+n,0); // 15
