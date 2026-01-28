@@ -8,7 +8,8 @@ class SalesEmployee extends Employee{
     }
 
     doWork(){
-        console.log("The Sales Employee is busy in work");
+        return ("The Sales Employee is busy in work");
+        // console.log("The Sales Employee is busy in work");
     }
 
     computePay(){
