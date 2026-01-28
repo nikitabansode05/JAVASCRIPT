@@ -32,6 +32,8 @@ for(const printEmployee of staff){
     console.log(printEmployee);
 }
 console.log("*********************************************************************");
+salesManager.appraise();
+console.log("*********************************************************************");
 
 // only define behaviour/characteristics but it should be implemented by other class.
 // when we want to create object then its defined as class.

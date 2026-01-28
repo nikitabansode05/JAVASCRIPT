@@ -1,5 +1,5 @@
 import SalesEmployee from "./salesEmployee.js";
-
+import IAppraisal from "./interface/IAppraisal.js"
 class SalesManager extends SalesEmployee{
     constructor(id,name,email,hra,basicSalary,tax,incentive,bonus){
         super(id,name,email,hra,basicSalary,tax,incentive)
@@ -12,6 +12,10 @@ class SalesManager extends SalesEmployee{
 
     computePay(){
         return (this.basicSalary+this.incentive+this.bonus+this.hra-this.tax);
+    }
+
+    appraise(){
+        console.log("The Sales Manager is appraising sales employee");
     }
 }
 
